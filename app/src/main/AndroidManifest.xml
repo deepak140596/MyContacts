@@ -16,11 +16,14 @@
         <activity
                 android:name=".ContactDetailsActivity"
                 android:label="@string/title_activity_contact_details"
+                android:launchMode="singleTask"
                 android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".ContactsDisplayActivity">
+        <activity android:name=".ContactsDisplayActivity"
+        android:launchMode="singleTask">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+        android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 

@@ -112,6 +112,5 @@ class ContactsDisplayActivity : AppCompatActivity(),
 
     override fun onBackPressed() {
         this.moveTaskToBack(true)
-
     }
 }

@@ -128,7 +128,6 @@ class ContactsRepository(var application: Application){
                 var contact = generateSingleContact(contactCursor)
                 return contact
             }
-
         }
         return null
     }

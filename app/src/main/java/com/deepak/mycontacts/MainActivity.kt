@@ -21,6 +21,15 @@ class MainActivity : AppCompatActivity() {
         activity_main_grant_permission_btn.setOnClickListener {
             askForPermissions()
         }
+        if (!isTaskRoot)
+        {
+            val intent = intent
+            val intentAction = intent.action
+            if (intent.hasCategory(Intent.CATEGORY_LAUNCHER) && intentAction != null && intentAction.equals(Intent.ACTION_MAIN)) {
+                finish()
+                return
+            }
+        }
     }
 
 
