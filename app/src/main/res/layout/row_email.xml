@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:background="@drawable/border_outline"
+    >
+        <TextView
+                android:id="@+id/row_email_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="deepak140596@gmail.com"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/row_email_contact_btn"
+                android:textColor="?android:attr/textColorPrimary"
+                android:textSize="16sp"
+        />
+
+        <TextView
+                android:id="@+id/row_email_label_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/row_email_tv"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_toLeftOf="@+id/row_email_contact_btn"
+                android:text="Home"
+        />
+
+
+        <ImageButton
+                android:id="@+id/row_email_contact_btn"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:background="@mipmap/ic_email"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+        />
+    </RelativeLayout>
+
+</LinearLayout>
