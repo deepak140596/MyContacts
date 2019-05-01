@@ -55,6 +55,6 @@
             android:background="@mipmap/ic_call_btn"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
-            android:layout_marginRight="16dp"
+            android:layout_marginRight="24dp"
     />
 </RelativeLayout>
